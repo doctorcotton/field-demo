@@ -1,7 +1,7 @@
 {
-  "name": "field-starter",
+  "name": "vision-draft-field",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vision Draft Field / 灵感成图 field shortcut and Cloudflare relay service",
   "main": "index.js",
   "scripts": {
     "start": "block-basekit-cli start:field",
@@ -9,7 +9,7 @@
     "pack": "block-basekit-cli pack:field",
     "dev": "block-basekit-cli dev:field"
   },
-  "author": "",
+  "author": "cottondog",
   "license": "ISC",
   "devDependencies": {
     "@lark-opdev/block-basekit-cli": "1.0.5"

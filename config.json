@@ -1,8 +1,11 @@
 {
-    "authorizations": [
-        {
-            "username": "123",
-            "password": "123"
-        }
-    ]
+  "authorizations": [
+    {
+      "id": "vision_draft_relay_auth",
+      "apiKey": "replace-with-your-relay-access-token"
+    }
+  ],
+  "mockData": {
+    "prompt": "Generate a polished campaign-style image from the selected references."
+  }
 }

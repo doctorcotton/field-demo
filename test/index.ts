@@ -3,7 +3,8 @@ import { testField, createFieldContext } from "@lark-opdev/block-basekit-server-
 async function run() {
     const context = await createFieldContext();
     testField({
-        account: 100,
+        prompt: 'Generate a clean product-style illustration based on the references.',
+        referenceImages: [],
     }, context);
 }
 
